@@ -7,8 +7,8 @@ public class OTP {
 	public OTP(ChromeDriver tracko2) {
 		Tracko = tracko2;
 	}
-	public void otp() throws InterruptedException {
-		  Tracko.findElementByXPath("//input[@id='otp']").sendKeys("123456");
+	public void otp(String Otp) throws InterruptedException {
+		  Tracko.findElementByXPath("//input[@id='otp']").sendKeys(Otp);
 	       // Tracko.findElementByXPath(" //button[@id='resendOtp_btn']").click();
 	        Tracko.findElementByXPath("//button[@id='sub_btn_verify']").click();
 	        //Tracko.switchTo().alert().accept();

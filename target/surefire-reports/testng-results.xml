@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53614" started-at="2017-08-20T12:54:03Z" finished-at="2017-08-20T12:54:57Z">
+  <suite name="Suite" duration-ms="116373" started-at="2017-09-09T12:46:25Z" finished-at="2017-09-09T12:48:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="53614" started-at="2017-08-20T12:54:03Z" finished-at="2017-08-20T12:54:57Z">
+    <test name="Test" duration-ms="116373" started-at="2017-09-09T12:46:25Z" finished-at="2017-09-09T12:48:21Z">
       <class name="Maven_demo.Maven_demo1.Tracko">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Maven_demo.Maven_demo1.Tracko@73f792cf]" name="beforeClass" is-config="true" duration-ms="20677" started-at="2017-08-20T18:24:03Z" finished-at="2017-08-20T18:24:24Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Maven_demo.Maven_demo1.Tracko@3fb6a447]" name="beforeClass" is-config="true" duration-ms="100870" started-at="2017-09-09T18:16:25Z" finished-at="2017-09-09T18:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="f()[pri:0, instance:Maven_demo.Maven_demo1.Tracko@73f792cf]" name="f" duration-ms="32823" started-at="2017-08-20T18:24:24Z" finished-at="2017-08-20T18:24:57Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="f()[pri:1, instance:Maven_demo.Maven_demo1.Tracko@3fb6a447]" name="f" duration-ms="15458" started-at="2017-09-09T18:18:06Z" finished-at="2017-09-09T18:18:21Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='product_details.html?modelId=1' and @class='btn btn-sm btn-block btn-cta-primary']"}
-  (Session info: chrome=60.0.3112.101)
-  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
-System info: host: 'DELL-PC', ip: '192.168.0.14', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+System info: host: 'DESKTOP-JT7PQM5', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir5028_23523}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: fd767041b7094a424a0f40ce53604376
-*** Element info: {Using=xpath, value=//a[@href='product_details.html?modelId=1' and @class='btn btn-sm btn-block btn-cta-primary']}]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\owner\AppData\Local\Temp\scoped_dir1728_14807}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 23884c34e106fdc6860e477637df3541
+*** Element info: {Using=xpath, value=//input[@placeholder='Your name' and @name='name' and @id='name' and @type='text']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='product_details.html?modelId=1' and @class='btn btn-sm btn-block btn-cta-primary']"}
-  (Session info: chrome=60.0.3112.101)
-  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.5.1', revision: '9c21bb67ef', time: '2017-08-17T15:26:08.955Z'
-System info: host: 'DELL-PC', ip: '192.168.0.14', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+System info: host: 'DESKTOP-JT7PQM5', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir5028_23523}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.101, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: fd767041b7094a424a0f40ce53604376
-*** Element info: {Using=xpath, value=//a[@href='product_details.html?modelId=1' and @class='btn btn-sm btn-block btn-cta-primary']}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\owner\AppData\Local\Temp\scoped_dir1728_14807}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 23884c34e106fdc6860e477637df3541
+*** Element info: {Using=xpath, value=//input[@placeholder='Your name' and @name='name' and @id='name' and @type='text']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -52,8 +52,8 @@ Session ID: fd767041b7094a424a0f40ce53604376
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
-	at Maven_demo.Maven_demo1.Product_Details.product_detail(Product_Details.java:15)
-	at Maven_demo.Maven_demo1.Tracko.f(Tracko.java:44)
+	at Maven_demo.Maven_demo1.SignUp.sign(SignUp.java:22)
+	at Maven_demo.Maven_demo1.Tracko.f(Tracko.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,11 +84,11 @@ Session ID: fd767041b7094a424a0f40ce53604376
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Maven_demo.Maven_demo1.Tracko@73f792cf]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-08-20T18:24:57Z" finished-at="2017-08-20T18:24:57Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Maven_demo.Maven_demo1.Tracko@3fb6a447]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-09-09T18:18:21Z" finished-at="2017-09-09T18:18:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

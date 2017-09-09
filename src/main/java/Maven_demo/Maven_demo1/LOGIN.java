@@ -10,10 +10,10 @@ public class LOGIN
 		Tracko=tracko2;
 	}
 
-	public void login()
+	public void login(String Email,String password,String Mobile)
 	{
-		Tracko.findElementByXPath("//input[@id='login-mobile']").sendKeys("9997884577");
-		Tracko.findElementByXPath("//input[@id='login-password']").sendKeys("99978855");
+		Tracko.findElementByXPath("//input[@id='login-mobile']").sendKeys(Mobile);
+		Tracko.findElementByXPath("//input[@id='login-password']").sendKeys(password);
 		Tracko.findElementByXPath("//button[@id='sub_btn' and @type='submit']").click();
 
 

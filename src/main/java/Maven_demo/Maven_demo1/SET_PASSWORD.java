@@ -8,14 +8,14 @@ public class SET_PASSWORD {
 	public SET_PASSWORD(ChromeDriver tracko2) {
 		Tracko=tracko2;
 	}
-	public void Set_Pass() throws InterruptedException
+	public void Set_Pass(String password) throws InterruptedException
 	{
 
 		//Utility_Package ref=new Utility_Package();
 		//int xyz=ref.randomNum();
 
-	Tracko.findElementByXPath("//input[@id='password']").sendKeys("Trisha123");
-    Tracko.findElementByXPath("//input[@id='repassword']").sendKeys("Trisha123");
+	Tracko.findElementByXPath("//input[@id='password']").sendKeys(password);
+    Tracko.findElementByXPath("//input[@id='repassword']").sendKeys(password);
     Tracko.findElementByXPath("//button[@id='sub_btn_setpass']").click();
     Thread.sleep(8000);
 	}
